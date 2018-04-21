@@ -1,5 +1,5 @@
 #! /bin/bash
-# Copyright (c) 2018 flyzy2005
+
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 usage () {
