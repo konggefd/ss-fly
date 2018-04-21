@@ -1,5 +1,5 @@
 #! /bin/bash
-
+Copyright (c) 2018 konggefd
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 usage () {
@@ -55,7 +55,7 @@ install() {
         then
           sed -i '$i\ssserver -c /etc/shadowsocks.json -d start'  /etc/rc.local
         fi
-	echo "安装成功~尽情冲浪吧
+	echo "安装成功
 您的配置文件内容如下（server在客户端中需要配置成你VPS的IP）："
 	cat /etc/shadowsocks.json
 }
