@@ -121,7 +121,7 @@ case $1 in
 		exit 0;
 		;;
 	-v|v|version )
-		echo 'ss-fly Version 1.0, 2018-01-20, Copyright (c) 2018 flyzy2005'
+		echo 'ss-fly Version 1.0, 2018-01-20, Copyright (c) 2018 konggefd'
 		exit 0;
 		;;
 esac
