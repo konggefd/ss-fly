@@ -1,5 +1,5 @@
 #! /bin/bash
-Copyright (c) 2018 konggefd
+# Copyright (c) 2018 flyzy2005
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 usage () {
@@ -55,7 +55,7 @@ install() {
         then
           sed -i '$i\ssserver -c /etc/shadowsocks.json -d start'  /etc/rc.local
         fi
-	echo "安装成功
+	echo "安装成功~尽情冲浪吧
 您的配置文件内容如下（server在客户端中需要配置成你VPS的IP）："
 	cat /etc/shadowsocks.json
 }
@@ -121,7 +121,7 @@ case $1 in
 		exit 0;
 		;;
 	-v|v|version )
-		echo 'ss-fly Version 1.0, 2018-01-20, Copyright (c) 2018 konggefd'
+		echo 'ss-fly Version 1.0, 2018-01-20, Copyright (c) 2018 flyzy2005'
 		exit 0;
 		;;
 esac
